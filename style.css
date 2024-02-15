@@ -17,7 +17,7 @@ body.animatebackground {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     height: 100vh;
-    width: auto;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -40,6 +40,7 @@ body.animatebackground {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
+    font-family: 'Playfair Display', serif;
 }
 
   
@@ -73,7 +74,7 @@ body.animatebackground {
         background-color: rgb(0, 0, 0);
     }
     100% {
-        background-color: rgb(192, 128, 129);
+        background-color: rgb(235, 155, 156);
     }
 }
 
