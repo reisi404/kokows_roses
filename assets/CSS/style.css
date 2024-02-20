@@ -109,7 +109,7 @@ h2 {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 70px;
+    /* left: 70px; */
 }
 
 #wrapper-inner {
@@ -181,36 +181,6 @@ h2 {
     content: ' ';
 }
 
-.effect-container {
-    margin-top: 700px;
-    height: 100vh; /* Adjust height as needed */
-    overflow-x: hidden;
-    overflow-y: scroll;
-    background: linear-gradient(to right, black 25%, #1d1515, black 75%);
-    display: grid;
-    justify-items: center;
-    perspective: 600px;
-    perspective-origin: center center;
-  }
-  
-  .box, .box2 {
-    background: linear-gradient(to right, white 70%, #b9b0b0);
-    height: 300px; /* Adjust height as needed */
-    overflow: hidden;
-    width: 100vw;
-    transform-style: preserve-3d;
-  }
-  
-  .box {
-    transform: translateX(-50%) rotateY(65deg);
-    transform-origin: right center;
-  }
-  
-  .box2 {
-    background: linear-gradient(to left, white 70%, #b9b0b0);
-    transform: translateX(50%) rotateY(-65deg);
-    transform-origin: left center;
-  }
 
 /* Animations I've used below */
 

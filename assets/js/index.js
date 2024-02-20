@@ -4,7 +4,7 @@
 setInterval(function () {
     if (window.innerWidth > 700) {
         alert("Aren't you brilliant one? Unfortunately though, I haven't designed it to open this vertically, so you'll have to rotate your phone horizontally and then click the button.");
-        location.reload();
+        // location.reload();
     }
 }, 3000);
 
